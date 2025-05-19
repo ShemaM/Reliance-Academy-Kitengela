@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Reliance Academy - Excellence in Education</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header with Navigation -->
+    <header class="header">
+        <div class="header-container">
+            <!-- Logo with School Name -->
+            <a href="#home" class="logo">
+                <div class="logo-container">
+                    <img src="images/logo.jpeg" alt="Reliance Academy Logo" class="logo-img">
+                    <div class="logo-text">
+                        <h1 class="school-name">The Reliance Academy</h1>
+                        <p class="school-motto">Labor Quaid Vardi</p>
+                    </div>
+                </div>
+            </a>
+
+            <!-- Mobile Menu Toggle -->
+            <input type="checkbox" id="menu-toggle" class="menu-toggle" />
+            <label for="menu-toggle" class="hamburger">
+                <div class="hamburger-line"></div>
+                <div class="hamburger-line"></div>
+                <div class="hamburger-line"></div>
+            </label>
+
+            <!-- Navigation Links -->
+            <nav class="navbar">
+                <ul class="nav-links">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link">
+                            <span class="link-text">Home</span>
+                            <span class="link-underline"></span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">
+                            <span class="link-text">About Us</span>
+                            <span class="link-underline"></span>
+                        </a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="#programs" class="nav-link">
+                            <span class="link-text">Programs</span>
+                            <span class="link-underline"></span>
+                            <i class="dropdown-icon"></i>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#primary">Primary School</a></li>
+                            <li><a href="#secondary">Secondary School</a></li>
+                            <li><a href="#alevel">A-Level Program</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#features" class="nav-link">
+                            <span class="link-text">Why Choose Us</span>
+                            <span class="link-underline"></span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">
+                            <span class="link-text">Contact</span>
+                            <span class="link-underline"></span>
+                        </a>
+                    </li>
+                    <li class="nav-item cta">
+                        <a href="#apply" class="btn btn-primary">Apply Now</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>Excellence in Education Since 1995</h1>
+            <p>Reliance Academy provides world-class education that nurtures intellectual curiosity, creativity, and character development in a supportive learning environment.</p>
+            <div class="btn-group">
+                <a href="#programs" class="btn btn-primary">Explore Programs</a>
+                <a href="#contact" class="btn btn-secondary">Schedule a Visit</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats">
+        <div class="container">
+            <div class="stats-container">
+                <div class="stat-item">
+                    <div class="stat-number">28+</div>
+                    <div class="stat-label">Years of Excellence</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">98%</div>
+                    <div class="stat-label">Graduation Rate</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">50+</div>
+                    <div class="stat-label">Qualified Teachers</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">1000+</div>
+                    <div class="stat-label">Successful Alumni</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section" id="about">
+        <div class="container">
+            <div class="section-title">
+                <h2>About Our Academy</h2>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Our History & Mission</h3>
+                    <p>Founded in 1995, Reliance Academy has been at the forefront of educational excellence, providing a nurturing environment where students can thrive academically, socially, and emotionally.</p>
+                    <p>Our mission is to develop curious, knowledgeable, and caring young individuals who are prepared to tackle the challenges of tomorrow with confidence and integrity.</p>
+                    <p>We believe in holistic education that balances academic rigor with character development, creativity, and physical well-being.</p>
+                    <a href="#about" class="btn btn-primary">Learn More About Us</a>
+                </div>
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1588072432836-e10032774350?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Reliance Academy Campus">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Programs Section -->
+    <section class="section programs" id="programs">
+        <div class="container">
+            <div class="section-title">
+                <h2>Our Academic Programs</h2>
+            </div>
+            <div class="programs-grid">
+                <div class="program-card">
+                    <div class="program-image">
+                        <img src="https://images.unsplash.com/photo-1588072432836-e10032774350?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Primary Program">
+                    </div>
+                    <div class="program-content">
+                        <h3>Primary School</h3>
+                        <p>Our primary program fosters a love of learning through inquiry-based education, focusing on foundational skills in literacy, numeracy, and scientific thinking.</p>
+                        <a href="#primary" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+                <div class="program-card">
+                    <div class="program-image">
+                        <img src="https://images.unsplash.com/photo-1588072432836-e10032774350?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Secondary Program">
+                    </div>
+                    <div class="program-content">
+                        <h3>Secondary School</h3>
+                        <p>Our secondary program challenges students academically while providing diverse extracurricular opportunities to develop well-rounded individuals.</p>
+                        <a href="#secondary" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+                <div class="program-card">
+                    <div class="program-image">
+                        <img src="https://images.unsplash.com/photo-1588072432836-e10032774350?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="A-Level Program">
+                    </div>
+                    <div class="program-content">
+                        <h3>A-Level Program</h3>
+                        <p>Our prestigious A-Level program prepares students for university success with rigorous academics and personalized college counseling.</p>
+                        <a href="#alevel" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="section" id="features">
+        <div class="container">
+            <div class="section-title">
+                <h2>Why Choose Reliance Academy</h2>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h3>Academic Excellence</h3>
+                    <p>Consistently ranked among the top schools in the region with outstanding examination results.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Experienced Faculty</h3>
+                    <p>Our dedicated teachers are experts in their fields with an average of 15+ years experience.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-microscope"></i>
+                    </div>
+                    <h3>Modern Facilities</h3>
+                    <p>State-of-the-art labs, libraries, and sports facilities to support all areas of learning.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <h3>Global Perspective</h3>
+                    <p>International curriculum with exchange programs and multicultural environment.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="section testimonials">
+        <div class="container">
+            <div class="section-title">
+                <h2>What Our Community Says</h2>
+            </div>
+            <div class="testimonial-slider">
+                <div class="testimonial-card">
+                    <div class="testimonial-text">
+                        Reliance Academy provided me with not just academic knowledge but also the confidence to pursue my dreams. The teachers genuinely care about each student's success.
+                    </div>
+                    <div class="testimonial-author">
+                        Sarah Johnson
+                        <span class="author-role">Alumni, Class of 2018</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <h2>Ready to Join Our Community?</h2>
+            <p>Applications for the 2023-2024 academic year are now open.</p>
+            <div class="btn-group">
+                <a href="#apply" class="btn btn-secondary">Apply Now</a>
+                <a href="#contact" class="btn btn-primary">Contact Admissions</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <div class="footer-logo">
+                        <img src="images/logo.jpeg" alt="Reliance Academy Logo">
+                    </div>
+                    <p>Labor Quaid Vardi - Excellence in Education Since 1995</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h3 class="footer-title">Quick Links</h3>
+                    <ul class="footer-links">
+                        <li class="footer-link"><a href="#home">Home</a></li>
+                        <li class="footer-link"><a href="#about">About Us</a></li>
+                        <li class="footer-link"><a href="#programs">Programs</a></li>
+                        <li class="footer-link"><a href="#admissions">Admissions</a></li>
+                        <li class="footer-link"><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3 class="footer-title">Contact Info</h3>
+                    <ul class="footer-links">
+                        <li class="footer-link"><i class="fas fa-map-marker-alt"></i> 123 Education Road, Karachi</li>
+                        <li class="footer-link"><i class="fas fa-phone"></i> (021) 123-4567</li>
+                        <li class="footer-link"><i class="fas fa-envelope"></i> info@relianceacademy.edu.pk</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2023 The Reliance Academy. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
