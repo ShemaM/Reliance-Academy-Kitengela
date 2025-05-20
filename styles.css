@@ -209,6 +209,7 @@
         /* Navigation Styles */
         .navbar {
           display: flex;
+          background-color: var(--border-color);
         }
 
         .nav-links {
@@ -378,7 +379,8 @@
 
         /* Hero Section */
         .hero {
-          background: linear-gradient(135deg, var(--primary) 0%, var(--primary-light) 100%);
+          background-image:url('images/outside\ view.png');
+          background-size: cover;
           color: var(--text-inverse);
           padding: 10rem 0 6rem;
           min-height: 100vh;
